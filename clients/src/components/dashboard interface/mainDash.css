@@ -1,0 +1,42 @@
+.MainDash{
+    /* padding-top: 1rem; */
+    display: flex;
+    height: 100%;
+    width: fit-content;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 30px;
+
+}
+.MainDash h1{
+    font-family: ui-monospace;
+}
+.title-dash{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0; 
+}
+@media screen and (max-width: 1200px) {
+    .MainDash{
+        justify-content:flex-start;
+        margin-top: 2rem;
+      
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    .MainDash{
+        align-items: center;
+       
+    }
+}
+
+.MainDash .charts{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    margin-left: 100px;
+}

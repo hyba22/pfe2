@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav-bar {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    margin-top: 65px;
+    margin-left: 1156px;
+    width: 200px;
+   
+}
+
+.nav-bar-mobile {
+   position: fixed;
+   margin: 0 0 0 1440px;
+}
+
+
+nav .ul-item-bar {
+    display: block;
+    flex-direction: column;
+    margin-block: .2rem;
+    padding-left: 0px;
+    list-style: none;
+    background: #287bff;
+    color: white;
+    width: 190px;
+    position: relative;
+    right: -74%;
+    margin-top: 4px;
+    
+}
+
+nav .ul-item-no-bar li  {
+    display: none;
+}
+.nav-bar .menu-icon{
+    margin: -11px -180px -6px 0;
+}
+
+
+nav .ul-item-bar li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    cursor: pointer;
+    padding-block: 1.2rem;
+    margin-block: .1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav .ul-item-bar li:first-child{
+    border-bottom: 1px solid white;
+}
+nav .ul-item-bar li:hover {
+    background-color: blue;
+}
+
+
+
+nav .ul-item-bar  li a {
+    text-decoration: none;
+    color: #fff;
+    padding-left: 1rem;
+    
+} 
+
+
+.menu-icon .menu-open-icon {
+    color: #fff;
+    margin-block: 1rem;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.menu-icon .menu-close-tag {
+    color: #fff; 
+    margin-block: 1rem;
+    cursor: pointer;
+    margin-top: -60px;
+    margin-left: 110px;
+    position: relative;
+    font-size: 30px;
+    right: -45%;
+}
+
+
+nav .ul-item li:hover {
+    transition: 1s ease;
+}
+
+/*
+@media (max-width:900px) {
+    .header-mobile {
+        inset: 0 90% 0 0;
+        justify-content: center;
+    }
+
+    nav .ul-item {
+        display: none;  
+    }
+
+    nav .ul-item.oicon {
+        display: flex;
+    }
+    .menu-icon {
+        display: none;
+    }
+
+    nav .ul-item li .icon {
+        font-size: clamp(1rem,2vw + 1rem, 4rem);
+    }
+}
+
+    display: block;
+    position: relative;
+    right: -69%;
+    margin-top: 1px;
+
+*/

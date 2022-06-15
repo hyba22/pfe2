@@ -1,0 +1,55 @@
+
+.attente{
+
+display: flex;
+justify-content: center;
+height: 100%;
+width: 100%;
+margin: 0;
+padding: 0;
+}
+
+.box{
+    margin-top: 12em ;
+    border-radius: 35px;
+    border: #fff solid;
+    display: flex;
+    width: 630px;
+    height: 350px; 
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0 20px 50px #3c8fdc; 
+    margin-bottom: 15em ;
+}
+
+.box .message{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box .message p {
+    color: black;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 150px;
+}
+
+.box img{ 
+    position: absolute;
+    align-items: center;
+    width: 100px;
+    height: 100px; 
+    margin-top: 65px;
+    margin-bottom: 25px;
+    
+ 
+ }
+ 
+.box .message p{
+    font-family: 'Lato', sans-serif;
+    justify-content: center;
+    
+}

@@ -1,0 +1,41 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.Cards {
+    display: flex;
+    margin: 20px;
+    justify-content: space-around;
+    
+  }
+  .section-cards{
+    width: 90vw;
+    height: 200px;
+    display: flex;
+    margin: 25px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .parentContainer{
+    width: 35%;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .Cards{
+      flex-direction: column;
+    }
+    .parentContainer{
+      height: 12rem;
+    }
+  }
+  
+  @media screen and (max-width: 768px)
+  {
+    .Cards{
+      width: 90%;
+    }
+  }
+   
+  .parentContainer .card-class {
+    border-radius: 15px ;
+  }

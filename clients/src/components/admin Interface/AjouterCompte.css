@@ -1,0 +1,86 @@
+
+ .ajout-div1{
+     display: flex;
+     flex-direction: column;
+     margin: 15px;
+ }
+ 
+ .success-pop{
+     position: absolute;
+     bottom: 20px;
+     right: 20px;
+     border: 1px solid green !important;
+     padding: 0 20px !important;
+ }
+ 
+ .warning-pop{
+     position: absolute;
+     bottom: 20px;
+     right: 20px;
+     border: 1px solid orange !important;
+     padding: 0 20px !important;
+ }
+ 
+ 
+     .add-user  h3 { 
+      display: flex;
+      margin-bottom: 15px;
+      justify-content: center;
+    }
+
+     .add-user .box-box{ 
+       width: 60%;
+       background-color: white;
+       margin-left: 25%;
+       padding-top: 25px;
+       position: absolute;
+       top : 15px;
+       border:1px solid #3c8fdc;
+       border-bottom-left-radius: 40px;
+       border-top-right-radius:40px;
+       box-shadow: 0 20px 50px #3c8fdc;
+       height: 570px;
+       padding-left: 40px;
+       padding-right: 40px;
+     }
+     
+     
+     
+     .add-user:hover:before{
+     
+     left:37%;
+     
+     }
+
+     .button-class .send-btn{
+        float: right;
+        width: 140px;
+        color: #fff;
+        background: #287bff;
+        box-shadow:1px 1px 1px 1px #4554da;
+        border-radius: 20px;
+     }
+
+     .send-btn:hover{
+        color: #287bff;
+        background-color: #fff;
+    }
+
+    .box-box .boutons-ajout{
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .box-box .boutons-ajout .bt-ajout{
+        background-color: #287bff;
+        color: #fff;
+        margin-top: 15px;   
+        width: 200px;
+        border-radius: 15px;
+    }
+
+    .btns-ajout .bt-ajout:hover{
+        color: #287bff;
+        background-color: #fff;
+    }

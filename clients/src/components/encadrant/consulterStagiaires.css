@@ -1,0 +1,49 @@
+.box-modifier{
+    display: flex;
+    margin-left: 70px;
+    margin-top: 10px;
+    padding: 0;
+    box-shadow: 0 4px 10px #3c8fdc;
+    border-radius: 20px;
+} 
+
+
+.box-modifier h2{
+    display: flex;
+    justify-content: center;
+}
+
+.box-modifier .col-modifier{
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    
+   
+
+}
+
+.col-modifier .text-modif{
+    width: 430px;
+}
+.button-maj{
+    display: flex;
+    justify-content: center;
+}
+
+.button-maj .btn-modif{
+    display: block;
+    background-color: #287bff;
+    color: #fff;
+    justify-content: space-between;
+    margin: 100px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    width: 200px;
+    border-radius: 15px;
+
+}
+
+.button-maj .btn-modif:hover{
+    color: #287bff;
+    background-color: #fff;
+}

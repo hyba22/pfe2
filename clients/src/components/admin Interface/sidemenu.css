@@ -1,0 +1,13 @@
+
+
+.active .logo{
+    display: flex;
+    justify-content: center;
+}
+
+.main-menu .menu-item:hover{
+    color: #287bff;
+    background-color: #fff;
+
+}
+

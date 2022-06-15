@@ -1,0 +1,109 @@
+
+
+.home-accueil{
+    width: 90vw;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-effect:nth-child(1){
+    color: #FDC613;
+    font-size: 40px;
+    font-family: "AvenirNext"!important;
+    
+    
+}
+
+.accueil .rotate{
+   display: flex;
+}
+
+
+.accueil .accueil-div{
+display: flex;
+
+}
+ 
+.accueil .paragraphe{
+  display: flex;
+  font-family: "AvenirNext"!important;
+  flex-direction: column;
+  position: absolute;
+  left: 740px;
+  top: 250px;
+}
+
+.paragraphe p{
+  font-size: 20px;
+  margin-top: 8px;
+}
+
+.paragraphe .h1-acc{
+  margin-left: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.paragraphe .div-span{
+  margin-top: 30px;
+}
+
+.accueil .span-i{
+  padding: 10px;
+  display: flex;
+  color: #6084a4;
+  position: relative;
+  padding-left: 31px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "AvenirNext"!important;
+}
+
+.accueil .span-i i {
+  color: white;
+  font-style: normal;
+  margin: 3px;
+  margin-right: 13px;
+  transition: 0.5s;
+  width: 22px;
+  height: 20px;
+  padding: 2px;
+  text-align: center;
+  line-height: 18px;
+  background: linear-gradient(135deg, #FEBF17 0%, #FEBF17 100%);
+  border-radius: 3px;
+}
+.rotate{
+  animation: circ 9s infinite  linear;
+}
+@keyframes circ {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+.div-image{
+  margin: -100px 0 0 100px;
+  height: fit-content;
+  position: relative;
+}
+.div-image img{
+  width: 86%;
+  position: absolute;
+}
+.div-image img.rotate{
+  position: relative;
+  top: -25px;
+  z-index: -11;
+}
+
+
+
+.acueil-div{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}

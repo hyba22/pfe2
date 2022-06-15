@@ -1,0 +1,37 @@
+
+.update-box{
+    display: inline-table;
+    border-radius: 20px;
+   
+}
+
+.update-box{
+    border: none;
+    box-shadow: 2px 2px 4px 4px #287bff; 
+}
+
+.card-header{
+    border-radius: 20px;
+}
+
+.update{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.btn-roundd{
+    display: block;
+    justify-content: space-between;
+    margin: 100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 200px;
+    border-radius: 15px;
+
+}
+
+.btn-roundd:hover{
+    color: #287bff;
+    background-color: #fff;
+}

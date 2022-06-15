@@ -1,0 +1,80 @@
+body{
+    
+background: url(https://wallpapercave.com/wp/wp2590356.jpg );
+background-size: cover;
+height: auto;
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+}
+ 
+.header{
+    background-color: #287bff;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    height: 90px;
+    margin: 0;
+    padding: 0;
+}
+
+.header .items{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo-image{
+    display: flex;
+    width: 70px;
+    height: 70px ;
+    margin-left: 65px;
+    
+} 
+.items .menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.items .menu ul {
+    width: 10%;
+    display: flex;
+    position: absolute;
+    right: 0;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-right: 300px;
+}
+
+.header .items .menu  ul li{
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: background-color .3s ease;
+}
+
+.items .menu ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.items .menu ul li:hover{
+    cursor: pointer;
+}
+.trans::after,.is-current::after{
+    content: "";
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: #FDC613;
+    transition: width .3s ease-in;
+    margin-top: 3px;
+}
+.trans:hover::after,.is-current::after{
+width: 100%;
+transition: width .3s ease-out;
+}

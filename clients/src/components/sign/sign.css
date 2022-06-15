@@ -1,0 +1,12 @@
+.sign-form-section{
+    width: 65vw;
+    border: 1px solid #287bff;
+    padding: 30px;
+    margin: 50px auto;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 15px;
+    box-shadow:0 0 25px 1px #287bff;
+}
+.sign-form-section h1{
+    color: #287bff;
+}

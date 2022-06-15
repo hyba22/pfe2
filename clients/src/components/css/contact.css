@@ -1,0 +1,50 @@
+.contact{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.contact-section{
+    display: flex;
+    margin-top: 180px;
+    justify-content: center;
+    margin-right: 150px;
+    flex-direction: column;
+}
+
+.contact img {
+    height:500px;
+    width: 500x;
+    margin-top: 160px;
+    margin-left: 60px;
+}
+
+.contact-section .textfield-contact{
+    width: 460px;
+    
+    
+}
+
+.contact-section .long-text{
+    margin-top: 10px;
+    width: 460px;
+    min-height: 150px;
+    border-color:  rgb(174, 171, 171);
+    margin-left: 10px;
+    border-radius: 3px;
+    background: transparent;
+}
+
+
+.contact-section .buttons-section{
+    display: flex;;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 30px;
+
+}
+
+.buttons-section .contact-button{
+    border-radius: 20px;
+    width: 150px;
+}
+
